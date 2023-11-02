@@ -9,8 +9,7 @@ body {
     font-family: cursive;
     font-weight: bold;
     text-align: center;
-    width: 35%;
-    height: 50%;
+    width: 65%;
     color: white;
     margin: auto;
     margin-top: 7rem;
@@ -54,6 +53,10 @@ body {
     
     #save-btn {
         background: darkgreen;
+    }
+
+    @media (max-width: 45rem) {
+        width: 87%;
     }
 }
 
