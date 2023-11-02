@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 body {
   background-image: radial-gradient(#3f4c77, #202639); }
 
 .main {
   background-image: url("images.jpg");
   background-size: cover;
-  font-family: cursive;
-  font-weight: bold;
+  font-family: 'Young Serif', serif;
   text-align: center;
   width: 65%;
   color: white;
@@ -22,7 +22,8 @@ body {
   .main h2 {
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: lighter; }
   .main button {
     border: none;
     padding-top: 10px;
